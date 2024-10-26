@@ -15,4 +15,5 @@ public static void main(String[] args) {
              r++;
              sum+=arr[r];
              if(sum==target) ans = sum;
+             // Or we can do max if we want max
      }
