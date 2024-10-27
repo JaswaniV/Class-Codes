@@ -1,3 +1,5 @@
+// note : THE CONDITIONS OF THE INNER WHILE LOOP WILL BE ACCORDING TO THE CONDITION AND ALSO THE LINE NUMBER 14 AND 1 WILL BE ACCORDING TO THE CONDITION
+
 public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
         int target = 15;
@@ -15,7 +17,7 @@ public static void main(String[] args) {
                 l++;
             }
             if(sum<=target){
-                max = Math.max(max,r-l+1);
+                max = Math.max(max,r-l+1);// IF YOUA RE ASKED TO PRINT THE MAXIMUM SUBARRAY YOU HAVE TO STORE THE L AND R TO PRINT THE SUBARRAY
             }
             r++;
         }
